@@ -1,0 +1,58 @@
+body{
+	background-color: blanchedalmond;
+}
+.main{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: black;
+    animation-name: main;
+    animation-duration: 3s;
+}
+@keyframes main{
+	0% { transform: translate(0px,300px) rotate(0deg) ; opacity: 0;  }
+   	100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    margin: 23px;
+    display: inline-block;
+    background-color: gray;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow;
+}
+.green{
+	background-color: green;
+}
+.purple{
+	background-color: purple;
+}
+.orange{
+	background-color: orange;
+}
+.khaki{
+	background-color: khaki;
+}
+.maroon{
+	background-color: maroon;
+}
+
+.off{
+	background-color: black;
+}
+.hidden{
+	background-color: gray;
+}
+p{
+	margin-left: 300px;
+	font-size: 40px;
+}
